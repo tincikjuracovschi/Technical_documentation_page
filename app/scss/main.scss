@@ -1,3 +1,14 @@
 @import "vars";
 @import "fonts";
 @import "libs";
+
+#main-doc {
+  padding: 30px;
+
+  & .main-section {
+    & .section_title {
+      font-size: 27px;
+      font-weight: 600;
+    }
+  }
+}
